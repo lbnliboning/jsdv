@@ -4,6 +4,7 @@
 	"routes": [
 		{"src": "/(.*)","dest": "https://cdn.jsdelivr.net/$1"},
 		{"src": "/avater","dest": "https://jsd.onmicrosoft.cn/avatar/$1"},
+	]
 {
       "redirects": [
          {
