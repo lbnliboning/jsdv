@@ -1,0 +1,34 @@
+{
+
+	"version": 2,
+	"routes": [
+		{"src": "/(.*)","dest": "https://cdn.jsdelivr.net/$1"}
+},
+		{"src": "/avater","dest": "https://jsd.onmicrosoft.cn/avatar/$1"}
+},
+{
+      "redirects": [
+         {
+      "source": "/",
+      "destination": "https://cdn.1703.site"
+    },
+    {
+      "source": "/@info",
+      "destination": "https://jsdelivr.com"
+    },
+      {
+      "source": "/avater",
+      "destination": "https://cravatar.cn"
+    },
+    {
+  "regions": ["hkg1"]
+    },
+    {
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" },
+    { "src": "*.py", "use": "@vercel/python" },
+    { "src": "*.js", "use": "@vercel/node" }
+  ]
+}
+    ]
+    
