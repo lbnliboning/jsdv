@@ -5,10 +5,10 @@
 	]
 },
 {
-  "redirects": [
-    {
-      "source": "/@info",
-      "destination": "https://www.bigh.ink/"
-    }
-  ]
+        "redirects": [
+                {
+                  "source": "/@info",
+                  "destination": "https://www.bigh.ink/"
+                }
+        ]
 }
