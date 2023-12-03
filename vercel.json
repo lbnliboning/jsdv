@@ -3,4 +3,12 @@
 	"routes": [
 		{"src": "/(.*)","dest": "https://cdn.jsdelivr.net/$1"}
 	]
+},
+{
+  "redirects": [
+    {
+      "source": "/@info",
+      "destination": "https://www.bigh.ink/"
+    }
+  ]
 }
