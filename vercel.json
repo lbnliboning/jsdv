@@ -2,10 +2,10 @@
 	"version": 2,
 	"routes": [
 	 {"src": "/gh/(.*)","dest": "https://cdn.jsdelivr.net/gh/$1"},
-  {"src": "/npm/(.*)","dest": "https://cdn.jsdelivr.net/npm/$1"}
-  {"src": "/cdnjs/(.*)","dest": "https://cdnjs.cloudflare.com"}
+         {"src": "/npm/(.*)","dest": "https://cdn.jsdelivr.net/npm/$1"}
+         {"src": "/cdnjs/(.*)","dest": "https://cdnjs.cloudflare.com"}
 	 {"src": "/avatar/(.*)","dest": "https://www.cnavatar.com/avatar/$1"}
-  {"src": "/blogimg/(.*)","dest": "https://cdn.jsdelivr.net/gh/lbnliboning/PicGo@main/$1"}
-  {"src": "/hot/(.*)","dest": "https://hot.cigh.cn/$1"}
+         {"src": "/blogimg/(.*)","dest": "https://cdn.jsdelivr.net/gh/lbnliboning/PicGo@main/$1"}
+         {"src": "/hot/(.*)","dest": "https://hot.cigh.cn/$1"}
  ]
 }
