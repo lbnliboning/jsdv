@@ -1,31 +1,6 @@
 {
-  "redirects": [
-    { "from": "/@info", "to": "https://jsdelivr.com/", "statusCode": 301 }
-  ]
-},
-{
-  "version": 2,
-  "routes": [
-      {"src": "/gh/(.*)","dest": "https://cdn.jsdelivr.net/gh/$1"}
-  ]
-},
-{
-  "version": 2,
-  "routes": [
-      {"src": "/npm/(.*)","dest": "https://cdn.jsdelivr.net/npm/$1"}
-  ]
-},
-{
-  "version": 2,
-  "routes": [
-      {"src": "/bimg/(.*)","dest": "https://cdn.jsdelivr.net/gh/lbnliboning/PicGo@main/$1"}
-  ]
-},
-{
-  "version": 2,
-  "routes": [
-      {"src": "/avatars/(.*)","dest": "https://www.gravatar.com/avatar/$1"}
-  ]
+	"version": 2,
+	"routes": [
+		{"src": "/(.*)","dest": "https://cdn.jsdelivr.com/$1"}
+	]
 }
-
-
